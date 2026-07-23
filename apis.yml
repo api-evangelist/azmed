@@ -1,7 +1,27 @@
 aid: azmed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azmed.png
 name: AZmed
-description: AZmed is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AZmed is a Paris-based medical-imaging AI company whose Rayvolve AI Suite
+  assists radiologists by automatically analyzing X-rays and other studies. Its
+  applications include AZtrauma (fracture detection), AZchest (chest imaging),
+  AZmeasure (anatomical measurements), AZboneage (bone-age assessment) and AZnod
+  (CT nodule detection). The software integrates into existing radiology
+  workflows rather than being exposed as a public developer API, and is deployed
+  across 2,500+ healthcare centers in 55+ countries, analyzing over 15 million
+  X-rays annually, backed by 10+ peer-reviewed publications. As of this profile
+  AZmed does not publish a public REST API, developer portal, SDKs, or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/azmed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Medical Imaging
+- Artificial Intelligence
+- Radiology
+- Healthcare
+- Diagnostics
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://azmed.co/
+- type: Blog
+  url: https://azmed.co/resources/news
+- type: PrivacyPolicy
+  url: https://azmed.co/privacy-policy
+- type: TermsOfService
+  url: https://azmed.co/terms-of-use
+- type: Support
+  url: https://azmed.co/contact
+- type: GitHubOrganization
+  url: https://github.com/azmed
+- type: DomainSecurity
+  url: security/azmed-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
