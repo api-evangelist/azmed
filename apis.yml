@@ -50,7 +50,7 @@ tags:
 - Radiology
 - Healthcare
 - Diagnostics
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Medical Imaging
@@ -59,6 +59,7 @@ tags_raw:
 - Healthcare
 - Diagnostics
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
